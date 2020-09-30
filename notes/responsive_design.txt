@@ -1,0 +1,91 @@
+/* 
+Structure your content first and then design how your page should look.
+
+desktop: >= 1024px
+tablet: 481px - 1023px
+phone: <= 480px
+
+media q order top to bottom
+mobile: screen <= 480px
+tablet: screen > 480px
+desktop: screen >= 1024px 
+
+We'll still use pixels - for example, we usually use pixels for padding, since we typically want the same amount of padding regardless of screen size.
+
+We can use percentage (%) to set an element to take a certain amount of the available width, and the available width is determined by screen size! 
+
+The rem unit is a multiplier of the default font size of the user's browser. 
+
+The em unit is a multiplier of the element's parent. Experiment with these different units to understand how they behave.
+*/
+
+@media only screen and (max-width: 480px) {
+    .example {
+        color: black;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    .example {
+        color: black;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .example {
+        color: black;
+    }
+}
+
+/* ~THE GRID SYSTEM
+4 rows, 4 cols
+
+column: 25% width of screen
+
+different classes for screen sizes. each element gets all three classes
+.sm-4 
+.med-2
+.lg-1
+
+class='sm-4 med-2 lg-1'
+
+bootstrap:
+.lg-1
+.med-6
+.sm-3
+
+how to do this w/flex? w/flex seems unnecessary 
+*/
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+
+.row {
+    padding: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+    .sm-4 {
+        width: 100%;
+    }
+
+    .sm-0 {
+        display: none;
+        /* makes these elements disappear when screen is small */
+    }
+}
+
+@media only screen and (min-width: 481px) {
+    .md-2 {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .lg-1 {
+        width: 25%;
+    }
+}

@@ -1,0 +1,57 @@
+* {
+    font-family: 'Comic Sans MS';
+}
+
+body {
+    background-color: #eee;
+    width: 80%;
+    margin: auto;
+}
+
+.container {
+    background: #fff;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#title {
+    width: fit-content;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#first_pic {
+    height: 300px;
+    padding: 10px;
+    background-color: aqua;
+}
+
+.overview {
+    display: inline;
+}
+
+#list {
+    display: inline-block;
+    margin-right: 90px;
+}
+
+#google {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+}
+
+#table {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+#form {
+    color: violet;
+    display: inline-block;
+    vertical-align: top;
+    margin: auto 25em;
+}

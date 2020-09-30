@@ -1,0 +1,29 @@
+body {
+    background-color: darkslategrey;
+    margin: 0px;
+    /* reset necessary */
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* makes it full height */
+}
+
+#wrapper {
+    width: 950px;
+    padding: 20px;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    align-items: baseline;
+    /* baseline of text */
+    justify-content: space-between;
+    background-color: lightslategrey;
+    padding: 20px;
+}

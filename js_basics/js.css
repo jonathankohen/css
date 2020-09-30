@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(34, 50, 97);
+}
+
+#one {
+    background-color: crimson;
+    color: lightblue;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+#two {
+    display: inline-block;
+    background-color: darkcyan;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#home {
+    color: cyan;
+}
+
+#two li a {
+    color: cyan;
+}
+
+#menu {
+    margin-top: 0;
+    color: white;
+}
+
+ul .b {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+#three {
+    display: inline-block;
+    width: 80%;
+    padding: 20px;
+    vertical-align: top;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.527);
+    color: lightblue;
+}
+
+#three a {
+    color: darkcyan;
+}
+
+#three li {
+    margin-bottom: 10px;
+}
+
+#three span {
+    color: mediumpurple;
+}
+
+#four {
+    background-color: #555;
+    color: lightblue;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+
+#four a {
+    color: darkcyan;
+}

@@ -1,0 +1,156 @@
+body {
+    background: whitesmoke;
+    margin: 0px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+#title {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+    background: radial-gradient(
+        circle,
+        rgba(148, 107, 137, 1) 0%,
+        rgba(0, 0, 0, 1) 100%
+    );
+}
+
+main header {
+    background: linear-gradient(
+        180deg,
+        rgba(194, 194, 194, 1) 0%,
+        rgba(166, 166, 166, 1) 50%,
+        rgba(194, 194, 194, 1) 100%
+    );
+    color: white;
+
+    padding: 0px 10px;
+}
+
+h3 {
+    margin: 10px 0px;
+}
+
+#profile_pic {
+    /* original: 1140 x 750 */
+    width: 750px;
+    height: 493px;
+    border: 5px solid lightgrey;
+}
+
+#about {
+    width: 750px;
+    height: 503px;
+
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(225, 209, 230, 1) 76%,
+        rgba(199, 169, 207, 1) 100%
+    );
+}
+
+#about p {
+    padding: 0px 20px;
+}
+
+.bottom_three {
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(225, 209, 230, 1) 76%,
+        rgba(199, 169, 207, 1) 100%
+    );
+
+    width: 300px;
+    height: 600px;
+    margin: 20px 20px 0px 0px;
+}
+
+.bottom_three_pics {
+    /* 667 x 368 */
+    width: 300px;
+    height: 165px;
+}
+
+.lorem {
+    padding: 0px 20px;
+}
+
+.tech_headers {
+    padding: 10px;
+}
+
+.tech_headers h4 {
+    margin: 0px;
+}
+
+.tech_images {
+    width: 40px;
+    height: 40px;
+    padding: 10px 5px 0px 10px;
+}
+
+#five_eleven {
+    margin-right: 0px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+
+    background-color: rgb(0, 122, 0);
+    border: darkgreen solid 1px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #888;
+    color: white;
+}
+
+.button_text {
+    margin: 0px;
+    padding: 2px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer_images {
+    width: 20px;
+    height: 20px;
+}
+
+footer a {
+    vertical-align: top;
+    padding: 5px;
+    font-style: italic;
+    color: black;
+}
